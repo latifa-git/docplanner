@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,200&display=swap");
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  background: white;
+  top: 0%;
+  z-index: 10;
+}
+.menu {
+  display: flex;
+}
+.menu_list {
+  list-style: none;
+  margin-right: 20px;
+  cursor: pointer;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  cursor: pointer;
+  color: grey;
+}
+.drop-menu-item {
+  list-style: none;
+  margin-top: 10px;
+}
+.drop-menu {
+  display: none;
+}
+.menu_list:hover .drop-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: -40px;
+  background-color: white;
+}
+.menu_list:hover {
+  color: rgb(12, 178, 156);
+}
+.drop-menu-item {
+  color: grey;
+}
+.title {
+  text-align: center;
+  padding-top: 10%;
+}
+
+.title h1 {
+  font: 300 34px "Work Sans", Arial, sans-serif;
+  line-height: 44.2px;
+  color: rgb(0, 179, 155);
+}
+.parag {
+  justify-content: space-around;
+  display: flex;
+}
+.parag p {
+  width: 40%;
+  font: 400 16px Roboto, Arial, sans-serif;
+  color: rgb(116, 116, 116);
+  line-height: 28px;
+  text-align: justify;
+}
+.block1 {
+  line-height: 28.8px;
+  padding: 20px;
+  width: 25%;
+  border-radius: 5%;
+  background: rgb(0, 179, 155);
+  
+}
+.block1 h2{
+  font-family: Work Sans, Arial, sans-serif;
+  line-height: 28.8px;
+  letter-spacing: -0.3px;
+  font-size: 24px;
+  color: white;
+}
+.block1 h1{
+  font-family: Work Sans, Arial, sans-serif;
+  color: white;
+  line-height: 33.8px;
+  font-size: 26px;
+}
+.block1:hover{
+  opacity: 0.5;
+}
+.block2 {
+  line-heiht: 28.8px;
+  padding: 20px;
+  width: 25%;
+  border-radius: 7%;
+  background: rgb(61, 131, 223);
+
+}
+.block2 h2{
+  font-family: Work Sans, Arial, sans-serif;
+  line-height: 28.8px;
+  letter-spacing: -0.3px;
+  font-size: 24px;
+  color: white;
+}
+.block2 h1{
+  font-family: Work Sans, Arial, sans-serif;
+  color: white;
+  line-height: 33.8px;
+  font-size: 26px;
+}
+.block2:hover{
+  opacity: 0.5;
+}
+.block3 {
+  line-height: 28.8px;
+  padding: 20px;
+  width: 25%;
+  border-radius: 7%;
+  background-color: rgb(27, 39, 52);
+}
+.block3 h2{
+  font-family: Work Sans, Arial, sans-serif;
+  line-height: 28.8px;
+  letter-spacing: -0.3px;
+  font-size: 24px;
+  color: white;
+}
+.block3 h1{
+  font-family: Work Sans, Arial, sans-serif;
+  color: white;
+  line-height: 33.8px;
+  font-size: 26px;
+}
+.block3:hover {
+  
+  opacity: 0.5;
+}
+.blocks {
+  display: flex;
+  justify-content: space-around;
+}
+.block1 .select-list {
+  border: none;
+  background: rgb(0, 179, 155);
+}
+.block2 .select-list {
+  border: none;
+  background: rgb(61, 131, 223);
+}
+.block3 .select-list {
+  border: none;
+  background: rgb(27, 39, 52);
+}
+
+.blocks .select-list{
+  color: white;
+  text-decoration: underline;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 19;
+  line-height: 24.9667px;
+}
+.brands {
+  display: flex;
+}
+.brands h2 {
+  font: 300 34px "Work Sans", Arial, sans-serif;
+  line-height: 44.2px;
+  color: rgb(0, 179, 155);
+}
+.stats {
+  display: flex;
+  background-image: url(/css-layout/source/changes.jpg);
+  background-size: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.close {
+  text-align: center;
+}
+
+.patient {
+  text-align: center;
+  border-radius: 10%;
+  background-color: white;
+  width: 40%;
+  margin-top: 20px;
+  height: 50%;
+}
+.active {
+  text-align: center;
+   margin-bottom:10px;
+  border-radius: 10%;
+  background-color: white;
+  width: 40%; 
+  height: 50%;
+}
+.statistic {
+  text-align: center;
+  margin-bottom:10px;
+  border-radius: 10%;
+  background-color: white;
+  width: 40%;
+  height: 50%;
+}
+.leader {
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 10%;
+  background-color: white;
+  width: 40%;
+  height: 50%;
+}
+  
+.part-one {
+  width: 40%;
+
+}
+.part-one h1{
+  color: rgb(0, 179, 155);
+  font-family: Work Sans, Arial, sans-serif;
+  font-size: 34px;
+
+}
+.part-one p{
+  color:  rgb(116, 116, 116);
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+
+}
+
+.part-two {
+  display: flex;
+  flex-wrap: wrap;
+  width: 55%;
+  justify-content: space-around;
+}
+ h1{
+  color: margin-top: -20px;
+  margin-right: 15px;;
+}
+.read{
+  text-align: center;
+  width: 60%;
+  margin-left: 30%;
+}
+.read #one{
+  color: rgb(0, 179, 155);
+  font-size:30px ;
+  font-family: Work Sans, Arial, sans-serif;
+}
+.read #two{
+  color:  rgb(116, 116, 116);
+  font-family:Roboto, Arial, sans-serif ;
+  font-size:14px ;
+}
+.contents{
+  display: flex;
+flex-wrap: wrap;
+align-content: flex-start;
+justify-content: space-around;
+margin-bottom: 20%;
+
+}
+ .content{
+   margin-top: 20px;
+   margin-bottom: 30px;
+   justify-content: space-around;
+ align-items: center;
+ display: flex; 
+}
+
+.Istanbul:hover{
+ 
+  box-shadow: 0px 0px 15px #888888;
+  }
+.Rome:hover{
+    
+    box-shadow: 0px 0px 15px #888888;
+    }
+.Barchalona:hover{
+      
+      box-shadow: 0px 0px 15px #888888;
+      }
+.Bologna:hover{
+        
+        box-shadow: 0px 0px 15px #888888;
+        } 
+.curitiba:hover{
+ 
+  box-shadow: 0px 0px 15px #888888;
+  } 
+.Warsaw:hover{ 
+   
+    box-shadow: 0px 0px 15px #888888;
+    } 
+
+
+.content button{
+  background-color: rgb(22, 98, 198);
+  color: rgb(255, 255, 255);
+  font-size : 10px;
+  font-family: Roboto, Arial, sans-serif;
+  letter-spacing: 0.4px;
+  line-height: 10px;
+  border-radius: 10%;
+  border-color: rgb(22, 98, 198);
+ height: 30px;
+}
+.close h1{
+  font-family: Work Sans, Arial, sans-serif;
+  line-height: 39px;
+  font-size: 39px;
+  font-weight: 300;
+}
+.close button{
+  color: white;
+  border: none;
+  border-radius: 7%;
+  background-color: rgb(22, 98, 198);
+  font-size: 12px;
+  padding: 2%;
+
+}
+footer{
+ border-top: solid 1px rgb(218, 215, 215);
+ 
+  text-align: center;
+  color: rgb(128, 125, 125);
+  font-size: 12px;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 15.6px;
+  font-weight: 400;
+
+
+
+}
